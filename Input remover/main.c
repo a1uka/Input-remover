@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 
-int main(void) {
+int main() {
     printf("Your keyboard and mouse will blocked in 5 seconds...\n");
 
     if (BlockInput(TRUE)) {
